@@ -127,8 +127,11 @@ ing			printf("in'");
 .			ECHO;
 %%
 
-main()
+int
+main(
+	void
+)
 {
 	srand(getpid());
-	yylex();
+	return yylex();
 }

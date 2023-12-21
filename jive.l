@@ -226,7 +226,10 @@ VAX			printf("pink Cadillac");
 
 %%
 
-main()
+int
+main(
+	void
+)
 {
-	yylex();
+	return yylex();
 }
